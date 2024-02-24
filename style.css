@@ -1,0 +1,62 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+background-color: #1d809f;
+}
+
+ .navbar-brand , .nav-link {
+    color: white;
+}
+
+
+.nav-link.active{
+    font-weight: bold;
+}
+
+
+
+section.first{
+    background-image: url(https://65d990c2985bf3c72276c7fd--zesty-caramel-e89ced.netlify.app/assets/img/bg-masthead.jpg);	
+    width: 100%;
+    height: 1000px;
+
+}
+
+
+
+.main h1{
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+.main h2{
+    text-align: center;
+}
+
+
+
+.main input{
+
+    padding: 15px;
+    margin: 20px;
+    background-color: #1d809f;
+    border:1px #1d809f;
+    border-radius: 2px;
+    
+}
+
+
+
+
+section.second{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+.second p{
+    font-size: 20px;
+}
