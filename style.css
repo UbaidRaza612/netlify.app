@@ -75,6 +75,11 @@ i {
   padding: 100px;
 }
 
+
+.heading{
+  color: var(--secondary-color);
+}
+
 .one {
   background-image: url(https://65d990c2985bf3c72276c7fd--zesty-caramel-e89ced.netlify.app/assets/img/portfolio-1.jpg);
   background-size: cover;
@@ -88,18 +93,37 @@ i {
   background-size: cover;
   width: 50%;
   height: 300px;
+  padding: 8rem;
 }
 .three {
   background-image: url(https://65d990c2985bf3c72276c7fd--zesty-caramel-e89ced.netlify.app/assets/img/portfolio-3.jpg);
   background-size: cover;
   width: 50%;
   height: 300px;
+  padding: 8rem;
 }
 .four {
   background-image: url(	https://65d990c2985bf3c72276c7fd--zesty-caramel-e89ced.netlify.app/assets/img/portfolio-4.jpg);
   background-size: cover;
   width: 50%;
   height: 300px;
+  padding: 8rem;
+}
+
+
+@media (max-width:992px) {
+  .one{
+    width: 100%;
+  }
+  .two{
+    width: 100%;
+  }
+  .three{
+    width: 100%;
+  }
+  .four{
+    width: 100%;
+  }
 }
 
 .Look {
